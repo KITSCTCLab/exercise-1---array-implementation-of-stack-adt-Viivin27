@@ -5,7 +5,7 @@ class Stack:
         self.size = size
 
     def is_empty(self):
-        # Write code here
+        
 
     def is_full(self):
         # Write code here
@@ -29,5 +29,5 @@ for line in range(queries):
     if values[0] == 1:
         stack.push(values[1])
     elif values[0] == 2:
-        stack.pop()
+        
 stack.status()
